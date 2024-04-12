@@ -32,3 +32,60 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+ul {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+
+.container {
+  width: 320px;
+  padding: 0 15;
+  margin: 0 auto;
+  
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+
+/* ================================================= MOBILE 👇 ========================================= */
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+
+}
+/* ================================================= TABLET 👇 ========================================= */
+@media screen and (min-width: 768px) {
+  .container {
+   width: 768px;
+  }
+}
+
+/* ================================================= NOT DESKTOP 👇 ========================================= */
+@media screen and (max-width: 1157px) {
+  
+  }
+  
+  }
+/* ================================================= DESKTOP 👇 ========================================= */
+@media screen and (min-width: 1158px) {
+  .container {
+ width: 1158px;
+  }
+}
+  
