@@ -1,0 +1,214 @@
+/*---Section image & How it works---*/
+
+image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+ }
+ .container {
+    min-width: 320px; 
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1280px;
+    align-items: center;
+ }
+ 
+ .image-works-section {
+    padding: 40px 20px;
+    background-color: #7a3145;
+    min-width: 320px;   
+ }
+ 
+ 
+ .image-ho-work-container {
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+ }
+ 
+ .how-it-works-images {
+    border-radius: 30px;
+    display: block;
+    width: 100%;
+    height: auto;
+ }
+ 
+ @media screen and (min-width: 375px) {
+    .container {
+       width: 375px;
+    }
+ }
+ 
+ @media screen and (min-width: 768px) {
+    .container {
+       width: 768px;
+    }
+    
+    .image-works-section {  
+    text-align: center;
+    padding: 100px 64px;
+    }
+ 
+ }
+       @media screen and (min-width: 1280px) {
+          .container {
+             width: 1280px; 
+          } 
+ 
+       .image-works-section {  
+       text-align: center;
+       padding: 100px;
+       } 
+    }
+ 
+ /*---How it works--*/
+ 
+    .container {
+       min-width: 320px; 
+       padding: 0 15px;
+       margin: 0 auto;
+       max-width: 1280px;
+       align-items: center;
+    }
+    
+    .how-works-section {
+       background-color: #576f35;
+       padding: 80px 20px;
+       min-width: 320px; 
+    }
+    
+    .how-works-title {
+       font-weight: 600;
+       font-size: 28px;
+       line-height: 1.0;
+       letter-spacing: -0.01em;
+       color: #fbfbfb;
+       text-transform: uppercase;
+       text-align: left;
+       margin-bottom: 20px; 
+       max-width: 335px; 
+    }
+    
+    .title-transf-color-works {
+       color: rgba(251, 251, 251, 0.3);
+    }
+    
+    .how-works-paragraf {
+       font-weight: 500;
+       font-size: 14px;
+       line-height: 1.3;
+       color: #fbfbfb;
+       text-align: left;
+       margin-bottom: 40px;
+    }
+    
+    .how-works-list {
+       display: flex;
+       gap: 20px;
+       flex-direction: column;
+       flex-wrap: wrap;
+       align-items: center;
+    }
+ 
+    .how-works-item {
+       display: flex;
+       border-radius: 15px;
+       padding: 12px 27px 12px 24px;
+       width: 335px;
+       background-color: #fbfbfb;
+    }
+    
+    .button-icon-works {
+       border-radius: 50%;
+       width: 52px;
+       height: 52px;
+       padding: 7px 20px 7px 20px;
+       background-color: #7a3145;
+       text-align: center;
+       align-items: center;
+       margin-right: 24px;
+    }
+    
+    .button-icon-works-svg {
+       font-weight: 600;
+       font-size: 20px;
+       line-height: 1.0;
+       letter-spacing: -0.02em;
+       color: #fbfbfb;
+    }
+ 
+    .how-works-item-text {
+       font-weight: 500;
+       font-size: 12px;
+       line-height: 1.17;
+       letter-spacing: -0.02em;
+       color: rgba(20, 20, 20, 0.6);
+       text-align: left; 
+       text-transform: uppercase;
+    }
+   
+    .transf-color-work-text {
+       font-weight: 700;
+       color: #141414;
+    }
+      
+    @media screen and (min-width: 375px) {
+       .container {
+          width: 375px;
+       }
+    }
+    
+    @media screen and (min-width: 768px) {
+       .container {
+          width: 768px;
+       }
+       
+       .how-works-section {  
+       display:flex;
+       text-align: center;
+       padding: 100px 159px;
+       }
+    
+       .how-works-title {
+          font-weight: 600;
+          font-size: 32px;
+          line-height: 1.0;
+       }
+    
+       .how-works-paragraf {
+          margin-bottom: 50px;
+          max-width: 626px;
+          font-size: 16px;
+          line-height: 1.25;
+       }
+    
+       .how-works-list {
+          
+       }
+    
+       .how-works-item {
+          padding: 12px 25px 12px 24px;
+          width: 450px
+       }
+         
+       }
+    
+    @media screen and (min-width: 1280px) {
+       .container {
+          width: 1280px; 
+       } 
+       
+       .how-works-section {
+          padding: 100px 100px 160px 100px; 
+          width: 650px; 
+       }
+    
+       .how-works-list { 
+       
+      }
+     
+      .how-works-item {
+       padding: 12px 25px 12px 24px
+      }
+     }
+    
