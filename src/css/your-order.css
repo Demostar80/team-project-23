@@ -1,8 +1,11 @@
+.section-your-order {
+    background-color: #7a3145;
+}
+
 .your-order {
     max-width: 375px;
     margin: auto;
     padding: 80px 20px;
-    background-color: #7a3145;
 }
 
 .your-order-main-header {
@@ -299,8 +302,14 @@
 
     }
 
+    .section-your-order-content {
+        display: flex;
+        flex-flow: column;
+    }
+
     .mobile-your-order {
-        min-width: 751px;
+        min-width: 780px;
+        margin: 0;
     }
 
     .section-order-form {
