@@ -1,0 +1,49 @@
+body {    
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+   background-color: #fff;
+   
+   
+  }
+  
+  
+  
+  .container {
+    width: 320px;
+    padding: 0 15;
+    margin: 0 auto;
+    
+  }
+  
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  
+
+    .container {
+      max-width: 375px;
+      padding: 0 20px;
+    }
+  
+
+  /* ================================================= TABLET 👇 ========================================= */
+  @media screen and (min-width: 768px) {
+    .container {
+     max-width: 768px;
+     padding: 0 32px;
+    }
+  }
+  
+  /* ================================================= NOT DESKTOP 👇 ========================================= */
+
+    
+    
+  /* ================================================= DESKTOP 👇 ========================================= */
+  @media screen and (min-width: 1280px) {
+    .container {
+   max-width: 1280px;
+   padding: 0 100px;
+    }
+  }
+    

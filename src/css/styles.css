@@ -6,6 +6,7 @@
 */
 
 @import url('./reset.css');
+@import url('./base.css');
 @import url('./header.css');
 @import url('./hero.css');
 @import url('./how-it-works.css');
@@ -16,109 +17,6 @@
 @import url('./footer.css');
 
 
-:root {
-
-  font-family: Inter tight , sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-body {    
-  font-family: "Roboto", sans-serif;
-  color: #434455;
- background-color: #fff;
- 
- 
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-margin: 0;
-}
-
-a {
- text-decoration: none;
-}
-
-ul, ol {
- list-style: none;
- padding: 0;
- margin: 0;
-}
-
-img {
- display: block;
- max-width: 100%;
- height: auto;
-}
-
-ul {
-  padding-left: 0;
-  padding-right: 0;
-  margin: 0;
-  list-style: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-address {
-  font-style: normal;
-}
 
 
-.container {
-  width: 320px;
-  padding: 0 15;
-  margin: 0 auto;
-  
-}
 
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-
-/* ================================================= MOBILE 👇 ========================================= */
-@media screen and (min-width: 375px) {
-  .container {
-    width: 375px;
-  }
-
-}
-/* ================================================= TABLET 👇 ========================================= */
-@media screen and (min-width: 768px) {
-  .container {
-   width: 768px;
-  }
-}
-
-/* ================================================= NOT DESKTOP 👇 ========================================= */
-@media screen and (max-width: 1157px) {
-  
-  }
-  
-  
-/* ================================================= DESKTOP 👇 ========================================= */
-@media screen and (min-width: 1280px) {
-  .container {
- width: 1280px;
-  }
-}
-  
