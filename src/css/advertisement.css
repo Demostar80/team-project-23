@@ -1,53 +1,8 @@
-
-/**
-* {
-  margin: 0;
-  padding: 0;
-}
-body {
-  font-family: "Inter Tight", sans-serif;
-  background-color: #ffffff;
-  color: #434455;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-img {
-  display: block;
-  width: 100%;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-}
-
-/** Advertisement section 1 **/
-
-
 .advertisement-section {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 10px;
-}
-
-.advertisement-section-image {
-  border-radius: 12px;
-  position: absolute;
-  flex-direction: column;
 }
 
 .advertisement-section-text {
@@ -72,11 +27,6 @@ ul {
     padding: 80px 10px;
   }
 
-  .advertisement-section-image {
-    max-width: 355px;
-    height: 102px;
-  }
-
   .advertisement-section-text {
     max-width: 335px;
     font-weight: 600;
@@ -94,12 +44,6 @@ ul {
     padding: 100px 16px;
   }
 
-  .advertisement-section-image {
-    border-radius: 12px;
-    width: 736px;
-    height: 86px;
-  }
-
   .advertisement-section-text {
     max-width: 730px;
     font-size: 64px;
@@ -112,11 +56,6 @@ ul {
   .advertisement-container {
     max-width: 1280px;
     padding: 100px;
-  }
-
-  .advertisement-section-image {
-    max-width: 808px;
-    height: 86px;
   }
 
   .advertisement-section-text {
