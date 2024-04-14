@@ -7,26 +7,26 @@ image {
     min-width: 320px; 
     padding: 0 15px;
     margin: 0 auto;
-    max-width: 1800px;
+    max-width: 1280px;
     align-items: center;
  }
  
  .vegetables-section {
     background-color: #7a3145;
-    padding: 80px 20px;
-    min-width: 320px; 
+    padding-top: 80px;
+    padding-bottom: 80px; 
  }
  
  .vegetables-title {
     font-weight: 600;
-    font-size: 48px;
+    font-size: 64px;
     line-height: 1.04;
     letter-spacing: -0.01em;
     color: #fbfbfb;
     text-transform: uppercase;
     text-align: left;
-    margin-bottom: 20px; 
-    max-width: 335px; 
+    margin: 0px 0px 25px; 
+    
  }
  
  .title-transform-color {
@@ -44,17 +44,19 @@ image {
  
  .vegetables-list {
     display: flex;
-    gap: 20px;
-    flex-direction: column;
+    column-gap: 20px;
     flex-wrap: wrap;
-    align-items: center;
+    row-gap: 28px;
  }
  
  .vegetables-item {
     border-radius: 40px;
     padding: 32px 26px;
     background-color: #fbfbfb;
-    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 334px;
+
  }
  
  .vegetables-cont-text {
@@ -70,17 +72,17 @@ image {
     line-height: 1.0;
     letter-spacing: -0.01em;
     color: #7a3145;
-    margin-bottom: 12px; 
-    text-align: left; 
+    margin-bottom: 20px; 
+   
  }
  
  .vegetables-item-text {
     font-weight: 600;
     font-size: 14px;
-    line-height: 129%;
+    line-height: 1.29;
     letter-spacing: -0.01em;
     color: #141414;
-    text-align: left; 
+    text-transform: uppercase; 
      
  }
  
@@ -97,69 +99,77 @@ image {
     height: auto;
  }
  
- @media screen and (min-width: 375px) {
-    .container {
-       width: 375px;
+ @media screen and (min-width: 320px) {
+    .vegetables-section {
+       padding-top: 80px;
+       padding-bottom: 80px;
     }
+
+    .vegetables-list {
+   display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    column-gap: 21px;
+    row-gap: 28px  
+   }
+  
+   .vegetables-item {
+      width: calc((100%-100)/6);
+    align-content: center;
+    
+   }
+
+    
  }
  
  @media screen and (min-width: 768px) {
-    .container {
-       width: 768px;
+    .vegetables-section {
+       padding-top: 100px;
+       padding-bottom: 100px;
     }
     
-    .vegetables-section {  
-    display:flex;
-    text-align: center;
-    padding: 100px 0px;
-    }
+    
  
     .vegetables-title {
        margin-bottom: 50px;
-       font-size: 64px;
-       line-height: 1.0;
+       max-width: 508px;
     }
  
     .vegetables-paragraf {
        margin-bottom: 50px;
        max-width: 626px;
-       font-size: 16px;
-       line-height: 1.25;
+       
     }
  
     .vegetables-list {
-       flex-direction:row;
+       display: flex;
        flex-wrap: wrap;
-       gap: 28px 20px;
+       column-gap: 20px;
+       row-gap: 28px;
     }
  
     .vegetables-item {
-       width: calc((100% - 20px) / 2);
-       padding: 0px;
+       max-width: 342px;
+       margin-bottom: 0;
     }
-    
-    .vegetables-cont-text {
-       padding-top: 32px;
-       padding-left: 30px;
-       padding-bottom: 10px;
-    }
- 
-    .vegetables-imeges {
-       padding: 0px 30px 32px 30px;
-    }
+
+       
     
     }
  
  @media screen and (min-width: 1280px) {
-    .container {
-       width: 1280px; 
-    } 
- 
+     
     .vegetables-section {
-       padding: 100px 0;  
+       padding-top: 100px; 
+       padding-bottom: 100px; 
+    }
+
+    .vegetables-title {
+      margin-bottom: 25px;
     }
  
     .vegetables-list {
+      display: flex;
     flex-direction:row;
     flex-wrap: wrap;
     column-gap: 21px;
@@ -168,6 +178,7 @@ image {
   
    .vegetables-item {
     width: calc((100% - 42px) / 3);
+    max-width: 346px;
     
    }
   }
