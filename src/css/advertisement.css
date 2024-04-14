@@ -12,6 +12,7 @@
   text-align: left;
   text-transform: uppercase;
   position: relative;
+  
 }
 
 .advertisement-background {
@@ -76,7 +77,7 @@
     line-height: 80px;
     padding: 0 13px;
   }
-  
+
   .advertisement-background {
     width: 808px;
     height: 86px;
