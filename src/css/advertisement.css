@@ -1,3 +1,99 @@
-.advertisement {
-    
+.section-ads {
+    background-color: #FBFBFB;
+    padding: 80px 10px;
+}
+
+.ads-header {
+    padding: 0 10px;
+    max-width: 355px;
+    margin: auto;
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: 355px 102px;
+    background-image: url(./images-ads/ads-mob.jpg);
+    background-position: top 0px left 0,
+        center;
+
+}
+
+@media only screen and (min-resolution: 192dpi) {
+    .ads-header {
+        background-image: url(./images-ads/ads-mob@2x.jpg);
+    }
+}
+
+.ads-header-text {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.04167;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+}
+
+.discount {
+    color: #fbfbfb;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .section-ads {
+        min-width: 768px;
+        padding: 100px 16px;
+    }
+
+    .ads-header {
+        border-radius: 12px;
+        min-width: 736px;
+        padding: 0 16px;
+        background-size: 736px 86px;
+        background-image: url(./images-ads/ads-tablet.jpg);
+        background-position: top 0px left 0,
+            center;
+    }
+
+    @media only screen and (min-resolution: 192dpi) {
+        .ads-header {
+            background-image: url(./images-ads/ads-tablet@2x.jpg);
+        }
+    }
+
+    .ads-header-text {
+        padding-top: 8px;
+        font-size: 64px;
+        line-height: 1.09375;
+        letter-spacing: -0.01em;
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+
+    .section-ads {
+        min-width: 1280px;
+        padding: 100px;
+    }
+
+    .ads-header {
+        border-radius: 12px;
+        min-width: 1080px;
+        padding: 0 13px;
+        background-size: 808px 86px;
+        background-image: url(./images-ads/ads-desktop.jpg);
+        background-position: top 0px left 0,
+            center;
+    }
+
+    @media only screen and (min-resolution: 192dpi) {
+        .ads-header {
+            background-image: url(./images-ads/ads-desktop@2x.jpg);
+        }
+    }
+
+    .ads-header-text {
+        font-weight: 600;
+        font-size: 76px;
+        line-height: 1.05263;
+        padding: 0;
+    }
 }
