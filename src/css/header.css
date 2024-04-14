@@ -1,11 +1,10 @@
 
-
 .header-container {
     position: absolute;
     width: 100%;
      padding-top: 20px;
     padding-bottom: 48px;
-    /* background-color: #576F35;   */
+     background-color: #576F35;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,7 +20,7 @@
 }
 
 
-.logo-icon-p1 {
+.header-icon {
 fill:#FBFBFB;
 }
 
