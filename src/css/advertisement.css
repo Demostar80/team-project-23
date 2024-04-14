@@ -4,7 +4,7 @@
   gap: 10px;
 }
 
-.advertisement-section-text {
+.advertisement-text {
   font-family: "Inter Tight", sans-serif;
   color: #141414;
   font-weight: 600;
@@ -12,12 +12,16 @@
   text-align: left;
   text-transform: uppercase;
   position: relative;
-
 }
 
-.advertisement-section-text-discount {
+.advertisement-background {
+  position: absolute;
+  background-color: #576F35;
+  border-radius: 12px;
+}
+
+.advertisement-discount {
   color: #fbfbfb;
-  background-color: #576f35;
   border-radius: 12px;
 }
 
@@ -27,14 +31,18 @@
     padding: 80px 10px;
   }
 
-  .advertisement-section-text {
+  .advertisement-text {
     max-width: 355px;
     font-size: 48px;
     line-height: 50px;
     padding: 3px 10px;
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  } 
+  }
 
+  .advertisement-background {
+    width: 355px;
+    height: 102px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -43,11 +51,16 @@
     padding: 100px 16px;
   }
 
-  .advertisement-section-text {
+  .advertisement-text {
     max-width: 736px;
     font-size: 64px;
     line-height: 70px;
     padding: 8px 16px;
+  }
+
+  .advertisement-background {
+    width: 736px;
+    height: 86px;
   }
 }
 
@@ -57,10 +70,15 @@
     padding: 100px;
   }
 
-  .advertisement-section-text {
-    max-width: 1054px;
+  .advertisement-text {
+    max-width: 1080px;
     font-size: 76px;
     line-height: 80px;
-    margin: 0px;
+    padding: 0 13px;
+  }
+
+  .advertisement-background {
+    width: 808px;
+    height: 86px;
   }
 }
