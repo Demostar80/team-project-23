@@ -1,3 +1,5 @@
+
+/**
 * {
   margin: 0;
   padding: 0;
@@ -59,7 +61,9 @@ ul {
 
 .advertisement-section-text-discount {
   color: #fbfbfb;
-
+  background-color: #576f35;
+  border-radius: 12px;
+  width: 355px;
 }
 
 @media screen and (max-width: 767px) {
