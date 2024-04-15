@@ -43,14 +43,10 @@ padding: 0;
 }
 
 @media only screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding-top: 122px;
-    }
-
- .container-hero {
+    .container,  .container-hero {
       padding: 0;
- }
+        max-width: 768px;
+         }
    
     .hero-text {
         max-width: 704px;
@@ -72,7 +68,7 @@ padding: 0;
 }
 
 @media only screen and (min-width: 1280px) {
-    .container {
+    .container, .container-hero {
         max-width: 1280px;
         padding: 0;
         display: flex;
