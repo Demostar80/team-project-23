@@ -302,6 +302,10 @@
 
     }
 
+  .your-order{
+    display: block;
+  }
+
     .section-your-order-content {
         display: flex;
         flex-flow: column;
