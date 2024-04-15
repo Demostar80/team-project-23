@@ -309,6 +309,7 @@
   .your-order{
     display: block;
     max-width: 1280px;
+    padding: 100px;
  }
   }
 
