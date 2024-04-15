@@ -1,5 +1,4 @@
 /*---Section image & How it works---*/
-
 image {
    display: block;
    max-width: 100%;
@@ -30,13 +29,16 @@ image {
 .how-it-works-images {
    border-radius: 30px;
    display: block;
-   width: 100%;
+   width: 300px;
    height: auto;
 }
 
 @media screen and (min-width: 375px) {
    .container {
       width: 375px;
+   }
+   .how-it-works-images {
+      min-width: 355px
    }
 }
 
@@ -48,6 +50,10 @@ image {
    .image-works-section {  
    text-align: center;
    padding: 100px 64px;
+   }
+
+   .how-it-works-images {
+      width: 640px;
    }
 
 }
@@ -74,7 +80,7 @@ image {
 
    .container {
       min-width: 320px; 
-      padding: 0px 15px;
+      padding: 0px;
       margin: 0 auto;
       max-width: 1280px;
       align-items: center;
@@ -82,7 +88,7 @@ image {
    
    .how-works-section {
       background-color: #576f35;
-      padding: 80px 20px;
+      padding: 80px 0px;
       min-width: 320px; 
       align-items: center;
    }
@@ -114,24 +120,31 @@ image {
    
    .how-works-list {
       display: flex;
-      gap: 20px;
+      gap: 20px 0px;
       flex-direction: column;
       flex-wrap: wrap;
       align-items: center;
       counter-reset: my-counter;
+      list-style: none;
+      
+   }
+   
+   .container-text {
+      width: 280px;
+      padding-left: 20px;
    }
 
    .how-works-item {
       display: flex;
       border-radius: 15px;
-      padding: 20px;
+      padding: 20px 5px 20px 5px;
       background-color: #fbfbfb;
       list-style: none;
       counter-increment: my-counter;
       margin-bottom: 0.5em;
-      margin-right: 10px;
+      width: 280px;
    }
-   .how-works-item::before {
+   .how-works-list::before(css counter) {
      content: counter(my-counter);
      margin-right: 0.5em;
      font-weight: bold;
@@ -139,13 +152,20 @@ image {
    
    .button-icon-works {
       border-radius: 50%;
-      width: 52px;
-      height: 52px;
-      padding: 7px 20px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 1.0;
+      letter-spacing: -0.02em;
+      color: #fbfbfb;
+      box-shadow: 0px 0px 0px 5px rgba(122, 49, 69, 0.3);
+      width: 50px;
+      height: 50px;
+      padding: 6px 19px;
       background-color: #7a3145;
       text-align: center;
       align-items: center;
       margin-right: 10px;
+      
    }
    
    .how-works-item-text {
@@ -166,6 +186,12 @@ image {
    @media screen and (min-width: 375px) {
       .container {
          width: 375px;
+      }
+      .container-text {
+         width: 335px;
+      }
+      .how-works-item {
+         width: 335px;
       }
    }
    
@@ -191,7 +217,8 @@ image {
 
       .container-text {
          align-items: center;
-         max-width: 450px;
+         width: 450px;
+         padding: 0px;
       }
    
       .how-works-title {
@@ -199,12 +226,12 @@ image {
          font-size: 32px;
          line-height: 1.0;
          align-items: center;
-         max-width: 450px;
+         width: 450px;
       }
    
       .how-works-paragraf {
          margin-bottom: 50px;
-         max-width: 450px;
+         width: 450px;
          font-size: 16px;
          line-height: 1.25;
          align-items: center;
@@ -228,17 +255,21 @@ image {
       } 
       
       .how-works-section {
-         padding: 100px 0; 
+         padding: 100px 100px 160px 100px; 
          width: 700px; 
       }
    
       .how-works-list { 
       
      }
-    
+     .container-text {
+      width: 450px;
+   }
      .how-works-item {
-      padding: 12px 25px 12px 24px
+      padding: 12px 25px 12px 24px;
+      width: 450px;
      }
+
      .image-works-section-general {
       display: flex;
       background-color: #7a3145;
@@ -246,4 +277,3 @@ image {
     }
 
     }
-   
