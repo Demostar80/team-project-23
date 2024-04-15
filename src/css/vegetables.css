@@ -96,6 +96,10 @@
    height: auto;
 }
 
+.title-transform-color {
+   color: rgba(251, 251, 251, 0.3);
+}
+
 @media screen and (min-width: 375px) {
    .container {
       width: 375px;
@@ -135,6 +139,7 @@
    .vegetables-item {
       width: calc((100% - 20px) / 2);
       padding: 0px;
+
    }
    
    .vegetables-cont-text {
@@ -143,17 +148,16 @@
       padding-bottom: 10px;
    }
 
-   .vegetables-images {
+   }
+   
+    .vegetables-images {
       padding: 0px 30px 32px 30px;
    }
    
    }
 
 @media screen and (min-width: 1280px) {
-   .container {
-      width: 1280px; 
-   } 
-
+  
    .vegetables-section {
       padding: 100px;  
    }
@@ -163,9 +167,11 @@
    flex-wrap: wrap;
    column-gap: 21px;
    row-gap: 28px
+
   }
  
   .vegetables-item {
    width: calc((100% - 42px) / 3);
+
   }
  }
