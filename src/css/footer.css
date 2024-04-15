@@ -1,3 +1,196 @@
 .footer {
-   
+  background-color: #7a3145;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-container {
+  width: 100%;
+}
+
+.icon-mob-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 4px;
+  fill: #fbfbfb;
+  margin-bottom: 14px;
+}
+
+.footer-slogan {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+  width: 296px;
+}
+
+.footer-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+}
+
+.footer-address-list {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+  font-style: normal;
+  margin-bottom: 80px;
+}
+
+.footer-address-item {
+  margin-top: 14px;
+}
+
+.footer-privacy-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.privacy-symbol {
+  font-size: 18px;
+  line-height: 1.11;
+}
+
+.footer-privacy {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: -0.01em;
+  color: rgba(251, 251, 251, 0.5);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.green-harvest-symbol {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.01em;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+@media screen and (min-width: 375px) {
+  .footer-container {
+    width: 375px;
+  }
+
+  .svg-1 {
+    width: 18px;
+    height: 18px;
+  }
+
+  .svg-2 {
+    width: 168px;
+    height: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 32px;
+  }
+
+  .footer-container-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .icon-mob-logo {
+    font-size: 16px;
+    line-height: 1.25;
+    gap: 8px;
+    margin-bottom: 25px;
+  }
+
+  .footer-slogan {
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 1.25;
+  }
+
+  .footer-menu-list {
+    font-size: 32px;
+    gap: 25px;
+    margin-bottom: 64px;
+  }
+
+  .footer-address-list {
+    font-size: 18px;
+    line-height: 1.11;
+    margin-bottom: 100px;
+  }
+
+  .footer-address-item {
+    margin-top: 25px;
+  }
+
+  .footer-privacy-container {
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .footer-privacy {
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.01em;
+  }
+
+  .green-harvest-symbol {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer .container {
+    width: 1280px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .footer-logo-wrap {
+    flex-grow: 1;
+  }
+
+  .footer-slogan {
+    width: 265px;
+  }
+
+  .footer-menu-wrap {
+    display: flex;
+  }
+
+  .footer-menu-list {
+    line-height: 1;
+    margin-right: 121px;
+    margin-bottom: 0;
+  }
+
+  .footer-address-list {
+    margin-bottom: 0;
+  }
+
+  .footer-privacy-container {
+    margin-top: 125px;
+  }
 }
