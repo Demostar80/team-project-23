@@ -46,7 +46,8 @@ position:fixed;
 top: 0;
 left: 0;
 background-color: rgba(20, 20, 20, 0.4);
-opacity: 0;
+
+  opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
@@ -68,6 +69,7 @@ opacity: 0;
   visibility: visible;
   pointer-events: auto;
 }
+
 .close-btn {
   background-color: transparent;
   position: absolute;
@@ -92,83 +94,91 @@ opacity: 0;
 }
 
 
-
 .navigation-item {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .navigation-item-btn {
-    border: 1px solid rgba(251, 251, 251, 0.4);
-    border-radius: 12px;
-padding: 12px 16px;
- min-width: 115px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 129%;
-    letter-spacing: -0.02em;
-    text-align: center;
-display:block;
-background-color: transparent;
-color: #FBFBFB;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
+  border: 1px solid rgba(251, 251, 251, 0.4);
+  border-radius: 12px;
+
+  padding: 12px 16px;
+
+  min-width: 115px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  text-align: center;
+
+  display:block;
+
+  background-color: transparent;
+  color: #FBFBFB;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
 .navigation-item-btn:hover, 
 .navigation-item-btn:focus {
-    background-color: #FBFBFB;
-    color: #7A3145;
+  background-color: #FBFBFB;
+  color: #7A3145;
 }
-
 .navigation-item-btn:active {
-    color: rgba(122, 49, 69, 0.7);
-    background-color: #FBFBFB;
+  color: rgba(122, 49, 69, 0.7);
+  background-color: #FBFBFB;
 }
 
 .menu-btn-shop {
-    border-radius: 30px;
-    border: 1px solid rgba(251, 251, 251, 0.2);
-    min-width: 155px;
-    min-height: 50px;
-font-weight: 600;
-    font-size: 14px;
-    line-height: 129%;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    text-align: center;
-color: #FBFBFB;
-background-color: transparent;
-display: block;
-    margin-bottom: 40px;
-      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 30px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+
+  min-width: 155px;
+  min-height: 50px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #FBFBFB;
+  background-color: transparent;
+
+  display: block;
+  margin-bottom: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-btn-shop:hover,
 .menu-btn-shop:focus {
-    color: #7A3145;
-    background-color: #FBFBFB;
+  color: #7A3145;
+  background-color: #FBFBFB;
 }
 
 .menu-btn-shop:active {
-    color: rgba(122, 49, 69, 0.7);
-    background-color: #FBFBFB;
+  color: rgba(122, 49, 69, 0.7);
+  background-color: #FBFBFB;
 }
 @media screen and (min-width: 320px) {
-    
-    .logo-desk {
-        display: none;
-    }
+  
 
-    .menu-big-btn {
-        display:none;
-    }
+  .logo-desk {
+      display: none;
+  }
 
-    .close-btn-big {
-        display:none;
-    }
+  .menu-big-btn {
+      display:none;
+  }
+
+  .close-btn-big {
+      display:none;
+  }
 }
 
 @media screen and (min-width: 768px) {
- 
+
   .logo {
   display: none;
 }
@@ -197,7 +207,6 @@ display: block;
 .menu-icon-big {
   fill: #FBFBFB;
 }
-
 
 .drop-menu {
   background-color: #7A3145;
@@ -248,6 +257,8 @@ display: block;
       background-color: transparent;
       position: relative;
       width: 100%;
+      padding-top: 0;
+  
 }
 
 .backdrop {
@@ -312,9 +323,20 @@ left: 691px;
   text-align: center;
   background-color: transparent;
   color: #FBFBFB;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
+.nav-item-btn:hover, 
+.nav-item-btn:focus {
+  background-color: #FBFBFB;
+  color: #7A3145;
+}
+
+.nav-item-btn:active {
+  color: rgba(122, 49, 69, 0.7);
+  background-color: #FBFBFB;
+}
 
 .menu-btn-desk {
 
@@ -336,17 +358,19 @@ left: 691px;
   margin-left: auto;
 
   display: block;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
+
 .menu-btn-desk:hover,
 .menu-btn-desk:focus {
-    color: #7A3145;
-    background-color: #FBFBFB;
+  color: #7A3145;
+  background-color: #FBFBFB;
 }
 
 .menu-btn-desk:active {
-    color: rgba(122, 49, 69, 0.7);
-    background-color: #FBFBFB;
+  color: rgba(122, 49, 69, 0.7);
+  background-color: #FBFBFB;
 }
 
 }
