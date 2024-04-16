@@ -35,7 +35,7 @@ cursor: pointer;
 }
 
 .menu-icon {
-  stroke:#FBFBFB;
+  fill:#FBFBFB;
 }
 
 /* ---dropmenu---- */
@@ -46,8 +46,7 @@ position:fixed;
 top: 0;
 left: 0;
 background-color: rgba(20, 20, 20, 0.4);
-
-  opacity: 0;
+opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
@@ -101,22 +100,17 @@ background-color: rgba(20, 20, 20, 0.4);
 .navigation-item-btn {
     border: 1px solid rgba(251, 251, 251, 0.4);
     border-radius: 12px;
-
-    padding: 12px 16px;
-
-    min-width: 115px;
+padding: 12px 16px;
+ min-width: 115px;
     font-weight: 500;
     font-size: 14px;
     line-height: 129%;
     letter-spacing: -0.02em;
     text-align: center;
-
-    display:block;
-
-    background-color: transparent;
-    color: #FBFBFB;
-
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+display:block;
+background-color: transparent;
+color: #FBFBFB;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
 .navigation-item-btn:hover, 
@@ -133,24 +127,19 @@ background-color: rgba(20, 20, 20, 0.4);
 .menu-btn-shop {
     border-radius: 30px;
     border: 1px solid rgba(251, 251, 251, 0.2);
-
     min-width: 155px;
     min-height: 50px;
-
-    font-weight: 600;
+font-weight: 600;
     font-size: 14px;
     line-height: 129%;
     letter-spacing: -0.01em;
     text-transform: uppercase;
     text-align: center;
-
-    color: #FBFBFB;
-    background-color: transparent;
-
-    display: block;
+color: #FBFBFB;
+background-color: transparent;
+display: block;
     margin-bottom: 40px;
-    
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-btn-shop:hover,
@@ -206,7 +195,7 @@ background-color: rgba(20, 20, 20, 0.4);
 }
 
 .menu-icon-big {
-  stroke: #FBFBFB;
+  fill: #FBFBFB;
 }
 
 
@@ -328,16 +317,6 @@ left: 691px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-item-btn:hover, 
-.nav-item-btn:focus {
-  background-color: #FBFBFB;
-  color: #7A3145;
-}
-
-.nav-item-btn:active {
-  color: rgba(122, 49, 69, 0.7);
-  background-color: #FBFBFB;
-}
 
 .menu-btn-desk {
 
