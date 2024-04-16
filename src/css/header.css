@@ -35,7 +35,7 @@ cursor: pointer;
 }
 
 .menu-icon {
-  stroke:#FBFBFB;
+  fill:#FBFBFB;
 }
 
 /* ---dropmenu---- */
@@ -76,8 +76,7 @@ background-color: rgba(20, 20, 20, 0.4);
   right: 20px;
   border: none;
   cursor: pointer;
-  width: 32px;
-  height: 32px;
+  
 }
 
 .close-icon {
@@ -206,7 +205,7 @@ background-color: rgba(20, 20, 20, 0.4);
 }
 
 .menu-icon-big {
-  stroke: #FBFBFB;
+  fill: #FBFBFB;
 }
 
 
@@ -322,22 +321,12 @@ left: 691px;
   letter-spacing: -0.02em;
   text-align: center;
 
-  background-color: transparent;
+  background-color: red;
   color: #FBFBFB;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-item-btn:hover, 
-.nav-item-btn:focus {
-  background-color: #FBFBFB;
-  color: #7A3145;
-}
-
-.nav-item-btn:active {
-  color: rgba(122, 49, 69, 0.7);
-  background-color: #FBFBFB;
-}
 
 .menu-btn-desk {
 
